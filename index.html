@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="锦业AI资讯：经公开一手渠道核验的人工智能动态。">
+  <title>锦业AI资讯 · AI Briefing</title>
+  <style>
+    :root { --bg:#0a0a0a; --panel:#121212; --soft:#1d1d1d; --ink:#f4f2ed; --muted:#9b9b97; --line:#343434; --white:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:"PingFang SC","Microsoft YaHei",Inter,system-ui,sans-serif; letter-spacing:.01em; }
+    a { color:inherit; }
+    .shell { max-width:1260px; margin:auto; padding:28px 34px 64px; }
+    .topline { display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line); padding-bottom:20px; color:var(--muted); font-size:12px; letter-spacing:.13em; text-transform:uppercase; }
+    .mark { display:flex; align-items:center; gap:10px; color:var(--ink); font-weight:700; }
+    .mark i { width:10px; height:10px; display:inline-block; background:var(--white); border-radius:50%; }
+    header { padding:74px 0 48px; display:grid; grid-template-columns:1.4fr .6fr; gap:30px; border-bottom:1px solid var(--line); }
+    h1 { margin:0; font-size:clamp(48px,8vw,108px); line-height:.92; letter-spacing:-.09em; font-weight:800; }
+    h1 small { display:block; margin-top:18px; color:#858585; font-size:13px; letter-spacing:.26em; line-height:1.4; font-weight:600; text-transform:uppercase; }
+    .intro { align-self:end; margin:0; max-width:350px; color:#c8c7c2; font-size:15px; line-height:1.85; }
+    .intro strong { color:var(--white); }
+    .summary { display:grid; grid-template-columns:repeat(3,1fr); border-bottom:1px solid var(--line); }
+    .metric { min-height:124px; padding:24px 20px 21px 0; border-right:1px solid var(--line); }
+    .metric + .metric { padding-left:22px; }
+    .metric:last-child { border-right:0; }
+    .metric b { display:block; font-size:34px; line-height:1; letter-spacing:-.06em; }
+    .metric span { display:block; margin-top:11px; color:var(--muted); font-size:12px; }
+    .section-label { display:flex; justify-content:space-between; gap:20px; padding:34px 0 17px; color:var(--muted); font-size:12px; letter-spacing:.13em; text-transform:uppercase; }
+    .feed { border-top:1px solid var(--line); }
+    article { display:grid; grid-template-columns:135px 1fr 160px; gap:24px; padding:26px 0 28px; border-bottom:1px solid var(--line); transition:background .2s ease; }
+    article:hover { background:linear-gradient(90deg,transparent,rgba(255,255,255,.035),transparent); }
+    time { color:#d7d5cf; font:600 13px ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing:.04em; }
+    .tag { display:inline-block; margin-top:10px; padding:4px 7px; border:1px solid #555; color:#bdbcb6; font-size:10px; letter-spacing:.11em; text-transform:uppercase; }
+    h2 { margin:0 0 11px; font-size:clamp(21px,2.2vw,30px); line-height:1.2; letter-spacing:-.045em; }
+    .context, .detail { margin:0; color:#b9b8b3; font-size:14px; line-height:1.75; }
+    .detail { margin-top:9px; color:#e2e0db; }
+    .source { display:flex; flex-direction:column; align-items:flex-start; gap:10px; font-size:12px; color:var(--muted); }
+    .source a { padding-bottom:3px; color:var(--ink); text-decoration:none; border-bottom:1px solid #6f6f6f; }
+    .verify { font-size:10px; letter-spacing:.08em; color:#111; background:#e6e5df; padding:4px 7px; font-weight:700; }
+    .watch { margin-top:47px; padding:25px; background:var(--panel); border:1px solid var(--line); display:grid; grid-template-columns:1fr 2fr; gap:30px; }
+    .watch h3 { margin:0; font-size:16px; letter-spacing:-.03em; }
+    .watch p { margin:0; color:#a8a7a2; font-size:13px; line-height:1.8; }
+    footer { display:flex; justify-content:space-between; gap:20px; padding-top:27px; color:#797975; font-size:11px; line-height:1.7; }
+    @media (max-width:760px) { .shell{padding:20px 18px 42px} header{grid-template-columns:1fr;padding:55px 0 36px}.summary{grid-template-columns:1fr}.metric,.metric+.metric{min-height:auto;padding:19px 0;border-right:0;border-bottom:1px solid var(--line)}.metric:last-child{border:0}article{grid-template-columns:1fr;gap:12px}.source{flex-direction:row;align-items:center}.watch{grid-template-columns:1fr;gap:13px}footer{display:block}.topline span:last-child{display:none} }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="topline"><div class="mark"><i></i> JINYE / AI INTELLIGENCE</div><span>PUBLIC-SOURCE BRIEFING · 2026.09.05</span></div>
+    <header>
+      <div><h1>锦业<br>AI资讯<small>Verified signal, not noise.</small></h1></div>
+      <p class="intro">从公开渠道中筛掉转述与营销噪声，保留<strong>可回溯、可核验</strong>的 AI 动态。本期聚焦模型安全、企业治理、行业平台与开发者生态。</p>
+    </header>
+    <section class="summary" aria-label="本期概览">
+      <div class="metric"><b>07</b><span>本期已核验资讯</span></div>
+      <div class="metric"><b>06</b><span>覆盖机构与平台</span></div>
+      <div class="metric"><b>100%</b><span>一手公开来源</span></div>
+    </section>
+    <div class="section-label"><span>THE VERIFIED FEED / 本期情报</span><span>按发布时间倒序</span></div>
+    <section class="feed">
+      <article>
+        <div><time>2026.09.03</time><div class="tag">安全 / OpenAI</div></div>
+        <div><h2>OpenAI 发布 Daybreak，面向获批防御者开放高级网络安全能力</h2><p class="context">背景：AI 在漏洞发现与安全测试上的能力提升，也同步放大双重用途风险。</p><p class="detail">内容：Daybreak 分为 Blue 与 Red 两档，后者提供面向授权漏洞研究的 GPT‑5.6‑Cyber；官方同时列出身份核验、硬件安全密钥、监控与用途限制等控制措施。</p></div>
+        <div class="source"><span class="verify">官方原文核验</span><span>OpenAI · Security</span><a href="https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/" target="_blank" rel="noopener">阅读原文 ↗</a></div>
+      </article>
+      <article>
+        <div><time>2026.09.02</time><div class="tag">企业安全 / Google</div></div>
+        <div><h2>Google 推出 Fairwind 计划，向受信任伙伴提供 AI 网络防御能力</h2><p class="context">背景：政府与大型企业希望将先进 AI 能力用于主动化防御，但需要更强的准入与治理。</p><p class="detail">内容：Google 称 Fairwind 为有限准入计划，服务对象包括 Google Cloud 客户、政府机构和网络安全合作伙伴，重点是以 AI 能力协助主动处理网络风险。</p></div>
+        <div class="source"><span class="verify">官方原文核验</span><span>Google Blog</span><a href="https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/" target="_blank" rel="noopener">阅读原文 ↗</a></div>
+      </article>
+      <article>
+        <div><time>2026.09.02</time><div class="tag">产品变更 / 腾讯</div></div>
+        <div><h2>腾讯云调整混元生视频部分接口与服务</h2><p class="context">背景：生成式视频产品进入持续迭代期，云端 API 的版本与服务策略变化会直接影响接入方。</p><p class="detail">内容：腾讯云公告列出“腾讯混元生视频部分接口下线及服务调整”，发布时间为 9 月 2 日。公告页为变更通知，网页仅据此记录服务调整，不延伸推断具体技术能力变化。</p></div>
+        <div class="source"><span class="verify">官方公告核验</span><span>腾讯云 · 公告</span><a href="https://cloud.tencent.com/announce" target="_blank" rel="noopener">查看公告 ↗</a></div>
+      </article>
+      <article>
+        <div><time>2026.09.01</time><div class="tag">治理 / Microsoft</div></div>
+        <div><h2>Microsoft 发布 2026 负责任 AI 透明度报告</h2><p class="context">背景：Agent 能够调用工具、访问数据并代表用户执行动作后，传统的模型级治理已不足够。</p><p class="detail">内容：微软称其更新了 Responsible AI Standard，并将治理延展至模型、平台服务和应用；同时提及针对 Agent 的身份、工具权限与行为监控，以及 AI Red Teaming Agent、RAMPART 等工具。</p></div>
+        <div class="source"><span class="verify">官方原文核验</span><span>Microsoft Blog</span><a href="https://blogs.microsoft.com/on-the-issues/2026/09/01/responsible-ai-in-2026-how-we-are-adapting-for-whats-ahead/" target="_blank" rel="noopener">阅读原文 ↗</a></div>
+      </article>
+      <article>
+        <div><time>2026.09.01</time><div class="tag">企业 / Anthropic</div></div>
+        <div><h2>Anthropic 公布 Enterprise Frontier Safeguards 企业方案</h2><p class="context">背景：企业既需要零数据保留等隐私能力，也需要对高风险模型滥用的检测与防护。</p><p class="detail">内容：Anthropic 表示 EFS 将客户控制的云基础设施与滥用检测措施结合，并计划分阶段推出；官方称该方案将覆盖 Claude Code、Claude Enterprise、Claude Platform 及多个云平台渠道。</p></div>
+        <div class="source"><span class="verify">官方原文核验</span><span>Anthropic Newsroom</span><a href="https://www.anthropic.com/news/enterprise-frontier-safeguards" target="_blank" rel="noopener">阅读原文 ↗</a></div>
+      </article>
+      <article>
+        <div><time>2026.09.01</time><div class="tag">产品 / OpenAI</div></div>
+        <div><h2>ChatGPT 新增连接医疗健康来源的能力</h2><p class="context">背景：健康信息场景对来源可追溯性与内容边界的要求显著高于普通问答。</p><p class="detail">内容：OpenAI 新闻页将“ChatGPT can now connect to healthcare sources”列为 9 月 1 日产品更新。本期仅确认该功能已被官方发布；具体适用地区、来源范围与使用边界应以产品页实时说明为准。</p></div>
+        <div class="source"><span class="verify">官方新闻页核验</span><span>OpenAI · Product</span><a href="https://openai.com/news/" target="_blank" rel="noopener">查看发布页 ↗</a></div>
+      </article>
+      <article>
+        <div><time>2026.08.19</time><div class="tag">平台 / 百度</div></div>
+        <div><h2>百度 AI 开放能力支持千帆 Token 福利包积分抵扣</h2><p class="context">背景：模型与 AI API 的使用成本仍是企业和开发者接入的重要决策变量。</p><p class="detail">内容：百度 AI 开放平台称，语音、智能文档分析、文字识别、图像识别、图像增强与特效等开放能力新增支持千帆 Token 福利包积分抵扣。这是平台侧权益调整，并非新模型发布。</p></div>
+        <div class="source"><span class="verify">官方原文核验</span><span>百度 AI 开放平台</span><a href="https://ai.baidu.com/support/news" target="_blank" rel="noopener">查看资讯 ↗</a></div>
+      </article>
+    </section>
+    <aside class="watch"><h3>渠道核验说明</h3><p>本期正文仅收录能回溯至官方新闻页、产品页或公告页的项目。已重点巡检 OpenAI、Google、Microsoft、Anthropic、百度、腾讯公开渠道；知乎、微博与微信公众号作为观察渠道保留，但本轮未纳入未经一手来源交叉验证的内容。微博页面同时存在访问限制。时间以来源页面显示的发布日期为准。</p></aside>
+    <footer><span>锦业AI资讯 · 编辑版 / 2026.09.05</span><span>信息用于资讯整理，不构成产品、投资或安全建议。</span></footer>
+  </main>
+</body>
+</html>
